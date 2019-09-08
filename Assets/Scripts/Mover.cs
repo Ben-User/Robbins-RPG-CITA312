@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using RPG.Combat;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using RPG.Movement;
 using UnityEngine.AI;
 
 namespace RPG.Movement
@@ -19,6 +21,12 @@ namespace RPG.Movement
         void Update()
         {
             UpdateAnimator();
+        }
+
+        public void StartMoveAction(Vector3 destination)
+        {
+            GetComponent<Fighter>().Cancel();
+            MoveTo(destination);
         }
 
         public void MoveTo(Vector3 destination)
