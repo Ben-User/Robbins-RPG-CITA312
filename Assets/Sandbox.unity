@@ -3223,7 +3223,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: -0.00020062343, y: -2.863044e-34, z: 1846284.1, w: NaN}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -6363,6 +6363,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8e56ea007208fb4a8fce2228d66bdf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weaponRange: 5
 --- !u!4 &1917712044 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5654309120748057222, guid: 46cd04f680113c146906397f71168363,
