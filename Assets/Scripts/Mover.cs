@@ -2,7 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using RPG.Movement;
 using UnityEngine.AI;
 
 namespace RPG.Movement
